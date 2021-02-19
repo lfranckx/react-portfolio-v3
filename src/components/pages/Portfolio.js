@@ -58,7 +58,7 @@ export default function Portfolio(props) {
                     <h2 className={'h2 margin-bottom'}>Personal Projects</h2>
 
                     <div className={'personal-project'}>
-                        <a href='src/images/travelog.png' target="_blank" rel="noreferrer">
+                        <a href='https://travelog-client.now.sh/' target="_blank" rel="noreferrer">
                             <img src="https://lfranckx.github.io/portfolio/images/travelog.png" alt='Travelog' className='project-image'/>
                         </a>
 
