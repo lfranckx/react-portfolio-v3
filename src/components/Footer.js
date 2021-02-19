@@ -2,68 +2,49 @@ import React from 'react';
 import '../styles/Footer.scss';
 import { Link } from 'react-router-dom';
 
-function Footer() {
+export default function Footer() {
     return (
         <div className='footer-container'>
-            <h3>Contact Me</h3>
-            <Link to='/'>
+            <a  href="mailto: lfranckx@gmail.com">
                 <i className="fas fa-paper-plane"></i>&nbsp; Email
-            </Link>
+            </a>
 
             <section className='social-media'>
                 <div className='social-icons'>
-                    <Link
-                        className='social-icon-link facebook'
-                        to='/'
+                    <a
+                        href='https://www.facebook.com/lfranckx/'
                         target='_blank'
+                        className='social-icon-link facebook'
                         aria-label='Facebook'
                     >
                         <i className='fab fa-facebook-f icon' />
-                    </Link>
-                    <Link
-                        className='social-icon-link instagram icon'
-                        to='/'
+                    </a>
+                    <a
+                        href='https://www.instagram.com/lachnr0ll/'
                         target='_blank'
+                        className='social-icon-link instagram icon'
                         aria-label='Instagram'
                     >
                         <i className='fab fa-instagram icon' />
-                    </Link>
-                    <Link
-                        className='social-icon-link youtube'
-                        to='/'
+                    </a>
+                    <a
+                        href='https://www.linkedin.com/in/lachlanfranckx/'
                         target='_blank'
-                        aria-label='Youtube'
-                    >
-                        <i className='fab fa-youtube icon' />
-                    </Link>
-                    <Link
                         className='social-icon-link twitter'
-                        to='/'
-                        target='_blank'
-                        aria-label='Twitter'
-                    >
-                        <i className='fab fa-twitter icon' />
-                    </Link>
-                    <Link
-                        className='social-icon-link twitter'
-                        to='/'
-                        target='_blank'
                         aria-label='LinkedIn'
                     >
                         <i className='fab fa-linkedin icon' />
-                    </Link>
-                    <Link
-                        className='social-icon-link github'
-                        to='/'
+                    </a>
+                    <a
+                        href='https://github.com/lfranckx'
                         target='_blank'
-                        aria-label='LinkedIn'
+                        className='social-icon-link github'
+                        aria-label='Github'
                     >
                         <i className="fab fa-github icon"></i>
-                    </Link>
+                    </a>
                 </div>
             </section>
         </div>
     );
 }
-
-export default Footer;
