@@ -58,20 +58,20 @@ export default function Portfolio(props) {
                     <h2 className={'h2 margin-bottom'}>Personal Projects</h2>
 
                     <div className={'personal-project'}>
-                        <a href='build/images/travelog.png' target="_blank" rel="noreferrer">
-                            <img src="/images/travelog.png" alt='travelog' className='project-image'/>
+                        <a href='src/images/travelog.png' target="_blank" rel="noreferrer">
+                            <img src="/images/travelog.png" alt='Travelog' className='project-image'/>
                         </a>
 
                         <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer">
-                            <img src="build/images/MyMetcon.png" alt='travelog' className='project-image'/>
+                            <img src="/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
                         </a>
 
                         <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer">
-                            <img src="build/images/TourBus.png" alt='travelog' className='project-image'/>
+                            <img src="/images/TourBus.png" alt='TourBus' className='project-image'/>
                         </a>
 
                         <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer">
-                            <img src="build/images/DrumMachine.png" alt='travelog' className='project-image'/>
+                            <img src="/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
                         </a>
                     </div>
                 </section>
