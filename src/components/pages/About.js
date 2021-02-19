@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import '../../styles/About.scss';
 import Footer from "../Footer";
+import { SiPostgresql, SiJquery } from 'react-icons/si';
 
 export default function About() {
 
@@ -41,11 +42,13 @@ export default function About() {
                         <h3>Skills</h3>
                         <div className={'skills-list'}>
                             <i className="fab fa-js-square"></i>
+                            <SiJquery />
                             <i className="fab fa-html5"></i>
                             <i className="fab fa-shopify"></i>
                             <i className="fab fa-aws"></i>
                             <i className="fab fa-react"></i>
                             <i className="fab fa-node-js"></i>
+                            <SiPostgresql />
                             <i className="fab fa-sass"></i>
                             <i className="fab fa-css3-alt"></i>
                             <i className="fab fa-github"></i>

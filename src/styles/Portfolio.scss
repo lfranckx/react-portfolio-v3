@@ -6,7 +6,9 @@
     padding: 2rem;
 
     section {
-        max-width: 1200px;
+        &:first-child {
+            max-width: 1000px;
+        }
         margin: auto;
 
         div.pro-project {
@@ -22,13 +24,27 @@
                     }
                 }
 
+                p {
+                    color: $alice-blue;
+                }
+
                 .p {
-                    color: $carolina-blue;
+                    color: $melon;
                 }
     
                 h3 {
                     margin-top: 2rem;
                     color: $carolina-blue;
+                }
+
+                div.skills-list {
+                    display: flex;
+                    justify-content: center;
+                    justify-content: space-around;
+                    i {
+                        color: $alice-blue;
+                        font-size: 3rem;
+                    }
                 }
         }
 

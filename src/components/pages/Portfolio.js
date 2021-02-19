@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../Footer";
 import '../../styles/Portfolio.scss';
+import { SiPostgresql, SiJquery } from 'react-icons/si';
 
 export default function Portfolio(props) {
     useEffect(() => {
@@ -11,10 +12,10 @@ export default function Portfolio(props) {
         <>
             <main className={'portfolio'}>
                 <section className='margin-bottom projects-section'>
-                    <h2 className={'h2 margin-bottom'}>Professional Work</h2>
+                    <h1 className={'h2 margin-bottom'}>Professional Work</h1>
 
                     <div className='pro-project'>
-                        <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
+                        <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/omglogo.png" alt='omg-artistry' className='project-image'/>
                         </a>
                         <p className='p'>Click image to view</p>
@@ -61,21 +62,67 @@ export default function Portfolio(props) {
                     <h2 className={'h2 margin-bottom'}>Personal Projects</h2>
 
                     <div className={'personal-project'}>
-                        <a href='https://travelog-client.now.sh/' target="_blank" rel="noreferrer">
+                        <a href='https://travelog-client.now.sh/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/travelog.png" alt='Travelog' className='project-image'/>
                         </a>
+                        <div className='project-text'>
+                            <div className='text-wrap'>
+                                <p>Full-Stack Web App</p>
+                                <h3>Travelog</h3>
+                                <div className='flex'>
+                                    <SiPostgresql />
+                                    <i className="fab fa-aws"></i>
+                                    <i className="fab fa-react"></i>
+                                    <i className="fab fa-node-js"></i>
+                                </div>
+                            </div>
+                        </div>
 
-                        <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer">
+                        <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
                         </a>
+                        <div className='project-text'>
+                            <div className='text-wrap'>
+                                <p>Full-Stack Web Application</p>
+                                <h3>My Metcon</h3>
+                                <div className='flex'>
+                                    <SiPostgresql />
+                                    <i className="fab fa-react"></i>
+                                    <i className="fab fa-node-js"></i>
+                                </div>
+                            </div>
+                        </div>
 
-                        <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer">
+                        <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/TourBus.png" alt='TourBus' className='project-image'/>
                         </a>
+                        <div className='project-text'>
+                            <div className='text-wrap'>
+                                <p>Website built with RESTful API</p>
+                                <h3>Tour Bus</h3>
+                                <div className='flex'>
+                                    {/* <i className="fab fa-js-square"></i> */}
+                                    <SiJquery />
+                                    <i className="fab fa-html5"></i>
+                                    <i className="fab fa-css3-alt"></i>
+                                </div>
+                            </div>
+                        </div>
 
-                        <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer">
+                        <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
                         </a>
+                        <div className='project-text'>
+                            <div className='text-wrap'>
+                                <p>Website</p>
+                                <h3>Drum Machine</h3>
+                                <div className='flex'>
+                                    <i className="fab fa-js-square"></i>
+                                    <i className="fab fa-html5"></i>
+                                    <i className="fab fa-css3-alt"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
