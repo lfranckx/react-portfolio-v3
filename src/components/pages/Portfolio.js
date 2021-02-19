@@ -32,14 +32,16 @@ export default function Portfolio(props) {
                         <p className='text-left p-large'>
                             As well as optimizing her site's look, navigation, and responsiveness the client wanted to implement 
                             several new features to help boost her social media views and sell a subscription service to some of
-                            her more valuable tutorial videos for other aspring hair stylists and makeup artists.
+                            her more valuable tutorial videos for other aspring hair stylists and makeup artists. There was a
+                            constant process of the client wanting to change the way certain pages and sections looked. 
                         </p>
 
                         <h3 className='h4 margin-bottom'>What did I learn?</h3>
                         <p className='text-left p-large'>
-                            Constant communication with the client was key to the ultimate success of the project. There were many
-                            desired changes to get to overall desired look. I did much research and laid out several different 
-                            options and prices for her to choose from to implement new features into the site.
+                            Constant communication with the client was key to the ultimate success of the project. I was able to 
+                            accomplish all the desired changes to the design while maintaining a responsive and elegant design. 
+                            I did much research into creating new features for her subscription service and laid out several different 
+                            options for her to choose from to ensure she receieved the best outcome and ultimately save the most on cost.
                         </p>
 
                         <h3 className='h4 margin-bottom'>Languages and Technologies</h3>
