@@ -42,7 +42,7 @@ export default function Portfolio(props) {
                             Constant communication with the client was key to the ultimate success of the project. I was able to 
                             accomplish all the desired changes to the design while maintaining a responsive and elegant design. 
                             I did much research into creating new features for her subscription service and laid out several different 
-                            options for her to choose from to ensure she receieved the best outcome and ultimately save the most on cost.
+                            options for her to choose from to ensure she receieved the best outcome and ultimately save on cost.
                         </p>
 
                         <h3 className='h4 margin-bottom'>Languages and Technologies</h3>
