@@ -22,7 +22,7 @@ export default function Portfolio(props) {
                         <p className='text-left p-large'>
                             OMG Artistry is an e-commerce store for celebrity hair and makeup artist Olivia Smalley.
                             The goal of the job was to streamline her branding through the use of captivating story-telling
-                            copy, uniformed colors and fonts, and create an over all professional and easy to navigate store front,
+                            copy, uniformed colors and fonts, and create an overall professional and easy to navigate store front,
                             while keeping responsive at the forefront to capitalize on the majority of her consumer base using
                             smartphones. 
 
@@ -33,7 +33,8 @@ export default function Portfolio(props) {
                             As well as optimizing her site's look, navigation, and responsiveness the client wanted to implement 
                             several new features to help boost her social media views and sell a subscription service to some of
                             her more valuable tutorial videos for other aspring hair stylists and makeup artists. There was a
-                            constant process of the client wanting to change the way certain pages and sections looked. 
+                            constant process of the client wanting to change the way certain pages and sections looked as well
+                            trying to perform complex tasks with the payment system in Shopify. 
                         </p>
 
                         <h3 className='h4 margin-bottom'>What did I learn?</h3>
