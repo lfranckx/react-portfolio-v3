@@ -13,7 +13,7 @@ import About from "./components/pages/About";
 function App() {
   return (
       <>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
             <Switch>
               <Route exact path="/" render={() => <Redirect to={'/home'} />} />
