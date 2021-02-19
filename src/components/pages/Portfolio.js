@@ -11,14 +11,14 @@ export default function Portfolio(props) {
         <>
             <main className={'portfolio'}>
                 <section className='margin-bottom'>
-                    <h2 className={'h2'}>Professional Work</h2>
+                    <h2 className={'h2 margin-bottom'}>Professional Work</h2>
 
-                    <div className='project'>
+                    <div className='pro-project'>
                         <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
                             <img src="/images/omglogo.png" alt='omg-artistry' className='project-image'/>
                         </a>
                         <p className='p'>Click image to view</p>
-                        <div className='bottom-line'></div>
+                        <div className='top-line'></div>
                         <p className='text-left p-large'>
                             OMG Artistry is an e-commerce store for celebrity hair and makeup artist Olivia Smalley.
                             The goal of the job was to streamline her branding through the use of captivating story-telling
@@ -41,6 +41,8 @@ export default function Portfolio(props) {
                             desired changes to get to overall desired look. I did much research and laid out several different 
                             options and prices for her to choose from to implement new features into the site.
                         </p>
+
+                        <h3 className='h4 margin-bottom'>Languages and Technologies</h3>
                         <div className={'skills-list margin-top'}>
                             <i className="fab fa-shopify"></i>
                             <i className="fab fa-js-square"></i>
@@ -48,18 +50,29 @@ export default function Portfolio(props) {
                             <i className="fab fa-css3-alt"></i>
                         </div>
                     </div>
-
                 </section>
 
-                <div className='bottom-line'></div>
+                <div className='bottom-line-large'></div>
 
-                <section className='margin-top'>
-                    <h2 className={'h2'}>Personal Projects</h2>
+                <section className='margin-top pad-b-2'>
+                    <h2 className={'h2 margin-bottom'}>Personal Projects</h2>
 
-                    <div className={'project'}>
-                    <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
+                    <div className={'personal-project'}>
+                        <a href='https://travelog-client.now.sh/' target="_blank" rel="noreferrer">
+                            <img src="/images/travelog.png" alt='travelog' className='project-image'/>
+                        </a>
 
-                    </a>
+                        <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer">
+                            <img src="/images/MyMetcon.png" alt='travelog' className='project-image'/>
+                        </a>
+
+                        <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer">
+                            <img src="/images/TourBus.png" alt='travelog' className='project-image'/>
+                        </a>
+
+                        <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer">
+                            <img src="/images/DrumMachine.png" alt='travelog' className='project-image'/>
+                        </a>
                     </div>
                 </section>
             </main>

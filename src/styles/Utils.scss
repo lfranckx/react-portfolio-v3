@@ -93,8 +93,16 @@
     margin-top: 2rem;
 }
 
+.margin-top-large {
+    margin-top: 2rem;
+}
+
 .margin-bottom {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-large {
+    margin-bottom: 4rem;
 }
   
 .text-center {
@@ -105,14 +113,26 @@
     text-align: left;
 }
 
+.top-line {
+    border-top: 2px #fff solid;
+    width: 4rem;
+    margin: 2rem auto;
+}
+
 .bottom-line {
     border-bottom: 2px #fff solid;
     width: 4rem;
     margin: 2rem auto;
 }
 
-.top-line {
+.top-line-large {
     border-top: 2px #fff solid;
-    width: 4rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.bottom-line-large {
+    border-top: 2px #fff solid;
+    width: 80%;
     margin: 2rem auto;
 }
