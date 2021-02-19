@@ -10,7 +10,7 @@ export default function Portfolio(props) {
     return (
         <>
             <main className={'portfolio'}>
-                <section className='margin-bottom'>
+                <section className='margin-bottom projects-section'>
                     <h2 className={'h2 margin-bottom'}>Professional Work</h2>
 
                     <div className='pro-project'>

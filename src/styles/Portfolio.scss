@@ -6,22 +6,25 @@
     padding: 2rem;
 
     section {
+        max-width: 1200px;
+        margin: auto;
+
         div.pro-project {
-            img {
-                max-width: 400px;
-                max-height: 400px;
-                transform: scale(1);
-                transition: transform 0.5s ease;
-
-                &:hover {
-                    transform: scale(1.04);
-					transition: transform 0.5s ease;
+                img {
+                    max-width: 400px;
+                    max-height: 400px;
+                    transform: scale(1);
+                    transition: transform 0.5s ease;
+    
+                    &:hover {
+                        transform: scale(1.04);
+                        transition: transform 0.5s ease;
+                    }
                 }
-            }
-
-            h3 {
-                margin-top: 2rem;
-            }
+    
+                h3 {
+                    margin-top: 2rem;
+                }
         }
 
         div.personal-project {
