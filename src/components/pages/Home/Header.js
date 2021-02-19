@@ -1,12 +1,11 @@
 import React from 'react';
 import Typical from "react-typical";
 import { Link } from "react-router-dom";
-import video from '../../../videos/video-1.mp4'
 
 export default function Header(props) {
     return (
             <header className='hero-container'>
-                <video src={video} autoPlay loop muted />
+                <video src={'/videos/video-1.mp4'} autoPlay loop muted />
                 <h1>I am Lachlan, a
                     <Typical
                         className={"typical"}
