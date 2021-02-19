@@ -16,12 +16,12 @@ function App() {
         <Router>
           <Navbar />
             <Switch>
-              <Route exact path="/portfolio/" render={() => <Redirect to={'/home'} />} />
-              <Route path='/portfolio/home' exact component={Home} />
-              <Route path='/portfolio/portfolio' component={Portfolio} />
-              <Route path='/portfolio/resume' component={Resume} />
-              <Route path='/portfolio/contact' component={Contact} />
-              <Route path={'/portfolio/about'} component={About}/>
+              <Route exact path="/" render={() => <Redirect to={'/home'} />} />
+              <Route path='/home' exact component={Home} />
+              <Route path='/portfolio' component={Portfolio} />
+              <Route path='/resume' component={Resume} />
+              <Route path='/contact' component={Contact} />
+              <Route path={'/about'} component={About}/>
             </Switch>
         </Router>
       </>
