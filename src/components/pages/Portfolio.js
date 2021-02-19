@@ -48,13 +48,18 @@ export default function Portfolio(props) {
                             <i className="fab fa-css3-alt"></i>
                         </div>
                     </div>
-                    
+
                 </section>
 
-                <section>
-                    <h2 className={'h2'}>Full-Stack Projects</h2>
+                <div className='bottom-line'></div>
+
+                <section className='margin-top'>
+                    <h2 className={'h2'}>Personal Projects</h2>
+
                     <div className={'project'}>
-                        <h3 className='h3'>Travelog</h3>
+                    <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
+
+                    </a>
                     </div>
                 </section>
             </main>
