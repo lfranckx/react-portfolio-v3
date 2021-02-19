@@ -39,7 +39,7 @@ export default function Header(props) {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/portfolio'
+                        <NavLink to='/work'
                             activeClassName={"selected"}
                             className='navlinks'
                             onClick={closeMobileMenu}
