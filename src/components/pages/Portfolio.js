@@ -32,9 +32,9 @@ export default function Portfolio(props) {
                         <p className='text-left p-large'>
                             As well as optimizing her site's look, navigation, and responsiveness the client wanted to implement 
                             several new features to help boost her social media views and sell a subscription service to some of
-                            her more valuable tutorial videos for other aspring hair stylists and makeup artists. There was a
-                            constant process of the client wanting to change the way certain pages and sections looked as well
-                            trying to perform complex tasks with the payment system in Shopify. 
+                            her more valuable tutorial videos for other aspring hair stylists and makeup artists. There were many
+                            discussions and directions on how to change the overall design of the store and solving issues pertaining
+                            to Shopify's payment system.
                         </p>
 
                         <h3 className='h4 margin-bottom'>What did I learn?</h3>
