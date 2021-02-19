@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../Footer";
 import '../../styles/Portfolio.scss';
 
-export default function Portfolio() {
+export default function Portfolio(props) {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -13,7 +13,7 @@ export default function Portfolio() {
                 <section>
                     <h2 className={'h2'}>Professional Work</h2>
                     <div className='project'>
-                        <a href='https://www.omgartistry.com/' target="_blank">
+                        <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
                             <img src="/images/omglogo.png" alt='omg-artistry' className='project-image'/>
                         </a>
                         <p className='p'>Click image to view</p>

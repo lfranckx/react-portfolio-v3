@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import '../styles/Navbar.scss';
 
-export default (props) => {
+export default function Header(props) {
 
     const [click, setClick] = useState(false);
     const handleClick = () => { setClick(!click) };

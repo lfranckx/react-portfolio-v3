@@ -2,7 +2,7 @@ import React from 'react';
 import Typical from "react-typical";
 import { Link } from "react-router-dom";
 
-export default (props) => {
+export default function Header(props) {
     return (
             <header className='hero-container'>
                 <video src='/videos/video-1.mp4' autoPlay loop muted />
