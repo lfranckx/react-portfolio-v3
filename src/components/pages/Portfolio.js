@@ -10,8 +10,9 @@ export default function Portfolio(props) {
     return (
         <>
             <main className={'portfolio'}>
-                <section>
+                <section className='margin-bottom'>
                     <h2 className={'h2'}>Professional Work</h2>
+
                     <div className='project'>
                         <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
                             <img src="/images/omglogo.png" alt='omg-artistry' className='project-image'/>
@@ -46,17 +47,16 @@ export default function Portfolio(props) {
                             <i className="fab fa-html5"></i>
                             <i className="fab fa-css3-alt"></i>
                         </div>
-
-
                     </div>
+                    
                 </section>
 
-                {/* <section>
+                <section>
                     <h2 className={'h2'}>Full-Stack Projects</h2>
                     <div className={'project'}>
                         <h3 className='h3'>Travelog</h3>
                     </div>
-                </section> */}
+                </section>
             </main>
 
             <Footer />
