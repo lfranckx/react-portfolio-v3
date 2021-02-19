@@ -15,7 +15,7 @@ export default function Portfolio(props) {
 
                     <div className='pro-project'>
                         <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer">
-                            <img src="/images/omglogo.png" alt='omg-artistry' className='project-image'/>
+                            <img src="https://lfranckx.github.io/portfolio/images/omglogo.png" alt='omg-artistry' className='project-image'/>
                         </a>
                         <p className='p'>Click image to view</p>
                         <div className='top-line'></div>
@@ -59,19 +59,19 @@ export default function Portfolio(props) {
 
                     <div className={'personal-project'}>
                         <a href='src/images/travelog.png' target="_blank" rel="noreferrer">
-                            <img src="/images/travelog.png" alt='Travelog' className='project-image'/>
+                            <img src="https://lfranckx.github.io/portfolio/images/travelog.png" alt='Travelog' className='project-image'/>
                         </a>
 
                         <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer">
-                            <img src="/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
+                            <img src="https://lfranckx.github.io/portfolio/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
                         </a>
 
                         <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer">
-                            <img src="/images/TourBus.png" alt='TourBus' className='project-image'/>
+                            <img src="https://lfranckx.github.io/portfolio/images/TourBus.png" alt='TourBus' className='project-image'/>
                         </a>
 
                         <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer">
-                            <img src="/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
+                            <img src="https://lfranckx.github.io/portfolio/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
                         </a>
                     </div>
                 </section>
