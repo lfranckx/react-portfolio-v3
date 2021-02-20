@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Footer.scss';
-import { SiGmail } from 'react-icons/si';
 
 export default function Footer() {
     return (
