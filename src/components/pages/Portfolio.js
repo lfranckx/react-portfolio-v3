@@ -117,8 +117,8 @@ export default function Portfolio(props) {
                                         <h4>Website Search Engine</h4>
                                         <p>Find live concerts happening near you using Ticketmaster's RESTful API</p>
                                         <div>
-                                            <i className="fab fa-html5"></i>
                                             <SiJquery />
+                                            <i className="fab fa-html5"></i>
                                             <i className="fab fa-css3-alt"></i>
                                         </div>
                                     </div>
@@ -138,9 +138,9 @@ export default function Portfolio(props) {
                                         <h4 className='h4'>Website App</h4>
                                         <p>A fun way for anyone to play drums with the tap of key!</p>
                                         <div>
+                                            <i className="fab fa-js-square"></i>
                                             <i className="fab fa-html5"></i>
                                             <i className="fab fa-css3-alt"></i>
-                                            <i className="fab fa-js-square"></i>
                                         </div>
                                     </div>
                                 </div>
