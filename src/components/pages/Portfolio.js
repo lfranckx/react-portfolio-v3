@@ -10,15 +10,15 @@ export default function Portfolio(props) {
 
     return (
         <>
-            <main className={'portfolio'}>
-                <section className='margin-bottom projects-section'>
+            <main id={'portfolio'}>
+                <section className='margin-bottom professional'>
                     <h1 className={'h2 margin-bottom'}>Professional Work</h1>
 
-                    <div className='pro-project'>
+                    <div className='professional-projects'>
                         <a href='https://www.omgartistry.com/' target="_blank" rel="noreferrer noopener">
                             <img src="https://lfranckx.github.io/portfolio/images/omglogo.png" alt='omg-artistry' className='project-image'/>
                         </a>
-                        <p className='p'>Click image to view</p>
+                        <p className='click'>Click image to view</p>
                         <div className='top-line'></div>
                         <p className='text-left p-large'>
                             OMG Artistry is an e-commerce store for celebrity hair and makeup artist Olivia Smalley.
@@ -58,71 +58,94 @@ export default function Portfolio(props) {
 
                 <div className='bottom-line-large'></div>
 
-                <section className='margin-top pad-b-2'>
+                <section className='personal margin-top pad-b-2'>
                     <h2 className={'h2 margin-bottom'}>Personal Projects</h2>
 
-                    <div className={'personal-project'}>
+                    <div className={'personal-projects'}>
                         <a href='https://travelog-client.now.sh/' target="_blank" rel="noreferrer noopener">
-                            <img src="https://lfranckx.github.io/portfolio/images/travelog.png" alt='Travelog' className='project-image'/>
-                        </a>
-                        <div className='project-text'>
-                            <div className='text-wrap'>
-                                <p>Full-Stack Web App</p>
-                                <h3>Travelog</h3>
-                                <div className='flex'>
-                                    <SiPostgresql />
-                                    <i className="fab fa-aws"></i>
-                                    <i className="fab fa-react"></i>
-                                    <i className="fab fa-node-js"></i>
+                            <div className='project'> 
+
+                                <img src="https://lfranckx.github.io/portfolio/images/travelog.png" alt='Travelog' className='project-image'/>
+
+                                <div className='project-text'>
+                                    <div className='text-wrap'>
+                                        <h3>Travelog</h3>
+                                        <h4>Full-Stack Web Application</h4>
+                                        <p>Travel blogging site for enthusiasts to share stories and connect with one another.</p>
+                                        <div>
+                                            <i className="fab fa-react"></i>
+                                            <i className="fab fa-node-js"></i>
+                                            <SiPostgresql />
+                                            <i className="fab fa-aws"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+                        
 
                         <a href='https://workout-creator-capstone-client.vercel.app/' target="_blank" rel="noreferrer noopener">
-                            <img src="https://lfranckx.github.io/portfolio/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
-                        </a>
-                        <div className='project-text'>
-                            <div className='text-wrap'>
-                                <p>Full-Stack Web Application</p>
-                                <h3>My Metcon</h3>
-                                <div className='flex'>
-                                    <SiPostgresql />
-                                    <i className="fab fa-react"></i>
-                                    <i className="fab fa-node-js"></i>
+                            <div className='project'>
+                                
+                                <img src="https://lfranckx.github.io/portfolio/images/MyMetcon.png" alt='MyMetcon' className='project-image'/>
+
+                                <div className='project-text'>
+                                    <div className='text-wrap'>
+                                        <h3>My Metcon</h3>
+                                        <h4>Full-Stack Web Application</h4>
+                                        <p>Metabolic conditioning workout generator that saves custom workouts and has a built in stopwatch.</p>
+                                        <div>
+                                            <i className="fab fa-react"></i>
+                                            <i className="fab fa-node-js"></i>
+                                            <SiPostgresql />
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                        </div>
+                        </a>
+
 
                         <a href='https://lfranckx.github.io/tourBus/' target="_blank" rel="noreferrer noopener">
-                            <img src="https://lfranckx.github.io/portfolio/images/TourBus.png" alt='TourBus' className='project-image'/>
-                        </a>
-                        <div className='project-text'>
-                            <div className='text-wrap'>
-                                <p>Website built with RESTful API</p>
-                                <h3>Tour Bus</h3>
-                                <div className='flex'>
-                                    {/* <i className="fab fa-js-square"></i> */}
-                                    <SiJquery />
-                                    <i className="fab fa-html5"></i>
-                                    <i className="fab fa-css3-alt"></i>
-                                </div>
-                            </div>
-                        </div>
+                            <div className='project'>
 
-                        <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer noopener">
-                            <img src="https://lfranckx.github.io/portfolio/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
+                                <img src="https://lfranckx.github.io/portfolio/images/TourBus.png" alt='TourBus' className='project-image'/>
+
+                                <div className='project-text'>
+                                    <div className='text-wrap'>
+                                        <h3>Tour Bus</h3>
+                                        <h4>Website Search Engine</h4>
+                                        <p>Find live concerts happening near you using Ticketmaster's RESTful API</p>
+                                        <div>
+                                            <i className="fab fa-html5"></i>
+                                            <SiJquery />
+                                            <i className="fab fa-css3-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </a>
-                        <div className='project-text'>
-                            <div className='text-wrap'>
-                                <p>Website</p>
-                                <h3>Drum Machine</h3>
-                                <div className='flex'>
-                                    <i className="fab fa-js-square"></i>
-                                    <i className="fab fa-html5"></i>
-                                    <i className="fab fa-css3-alt"></i>
+                        
+                        <a href='https://lfranckx.github.io/drum-machine/' target="_blank" rel="noreferrer noopener">
+                            <div className='project'>
+                                
+                                <img src="https://lfranckx.github.io/portfolio/images/DrumMachine.png" alt='DrumMachine' className='project-image'/>
+                                
+                                <div className='project-text'>
+                                    <div className='text-wrap'>
+                                        <h3>Drum Machine</h3>
+                                        <h4 className='h4'>Website App</h4>
+                                        <p>A fun way for anyone to play drums with the tap of key!</p>
+                                        <div>
+                                            <i className="fab fa-html5"></i>
+                                            <i className="fab fa-css3-alt"></i>
+                                            <i className="fab fa-js-square"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </section>
             </main>
